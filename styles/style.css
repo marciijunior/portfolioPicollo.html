@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Prata&display=swap');
+
+:root {
+    --cor-preta: #00000;
+    --cor-branca: #ffffff;
+    --cor-numero1: #181818;
+    --cor-numero2: #ebdcc4;
+    --cor-numero3: #e0ccac;
+}
+
+body {
+    weight: 100vh;
+    font-family: 'Prata', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: var(--cor-numero1);
+    color: var(--cor-branca);
+}
+
+.background1 {
+    background: url("../assets/background1.png") center / cover no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    width: 100%;
+}
+
+.background1::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url("../assets/background1.png") center / cover no-repeat;
+    z-index: -1;
+}
+
+
+
+.corpo__inicio {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+    height: 100vh; 
+    text-align: center; 
+}
+
+.corpo__inicio img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px; 
+}
+
+
+.foto__titulo {
+}
+
+.cabecalho {
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.img__rasgo {
+    width: 9vw;
+}
+
+.cabecalho__imagens {
+    gap: 10px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+}
+
+.titulo__cabecalho {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: var(--cor-branca);
+}
+
+.titulo__sm {
+    font-family: "Montserrat", serif;
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: var(--cor-branca);
+    margin: 0 100vh 0 0;
+    padding: 1vh;
+}
+
+.p__sm {
+    font-family: "Montserrat", serif;
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--cor-branca);
+    margin: 0 30vh 0 30vh;
+}
+
+.sbt__trabalho {
+    font-family: "Montserrat", serif;
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--cor-branca);
+}
+
+.titulo__sbt {
+    font-family: "Montserrat", serif;
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--cor-branca);
+    margin: 0 30vh 0 30vh;
+}
+
+.p__sbt__trabalhos {
+
+}
