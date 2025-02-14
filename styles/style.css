@@ -56,10 +56,6 @@ body {
     margin-bottom: 20px; 
 }
 
-
-.foto__titulo {
-}
-
 .cabecalho {
     padding: 10px;
     width: 100%;
@@ -106,6 +102,10 @@ body {
 }
 
 .sbt__trabalho {
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    text-align: center; 
     font-family: "Montserrat", serif;
     font-size: 1rem;
     font-weight: 400;
@@ -114,12 +114,26 @@ body {
 
 .titulo__sbt {
     font-family: "Montserrat", serif;
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: var(--cor-branca);
+    margin: 0 0 0 0;
+    padding: 1vh;
+}
+
+.p__sbt__trabalhos {
+    font-family: "Montserrat", serif;
     font-size: 1rem;
     font-weight: 400;
     color: var(--cor-branca);
     margin: 0 30vh 0 30vh;
 }
 
-.p__sbt__trabalhos {
+.container__sbt {
 
+}
+
+.imagem__sbt {
+    max-width: 50vh;
+    height: auto;
 }
