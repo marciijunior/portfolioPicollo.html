@@ -311,7 +311,7 @@ body {
 
 .box {
     margin: 0 2% 0 2%;
-    border-radius: 20px;
+    border-radius: 2px;
     overflow: hidden;
     position: relative;
     color: white;
@@ -379,7 +379,7 @@ body {
     background-color: #18181873;
     transform: scale(1.08);
     transform-origin: bottom left;
-    transition: 0.4s;
+    transition: 0.7s;
 }
 
 .rodape {
