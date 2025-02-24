@@ -113,7 +113,7 @@ body {
 }
 
 .sbt__trabalho {
-    background-color: #18181846;
+    background-color: #ffffff4b;
     box-shadow: 0 6px 20px rgb(0, 0, 0);
     display: flex;
     align-items: center; 
@@ -140,7 +140,7 @@ body {
 }
 
 .sbt__trabalho2 {
-    background-color: #18181846;
+    background-color: #ffffff4b;
     box-shadow: 0 6px 20px rgb(0, 0, 0);
     display: flex;
     align-items: center; 
@@ -167,7 +167,7 @@ body {
 }
 
 .sbt__trabalho3 {
-    background-color: #18181846;
+    background-color: #ffffff4b;
     box-shadow: 0 6px 20px rgb(0, 0, 0);
     display: flex;
     align-items: center; 
@@ -194,7 +194,7 @@ body {
 }
 
 .sbt__trabalho4 {
-    background-color: #18181846;
+    background-color: #ffffff4b;
     box-shadow: 0 6px 20px rgb(0, 0, 0);
     display: flex;
     align-items: center; 
@@ -260,7 +260,7 @@ body {
     padding: 1vh;
     border: 4px solid transparent;
     border-radius: 20px;
-    box-shadow: 0 6px 20px rgba(68, 68, 68, 0.11);
+    /* box-shadow: 0 6px 20px rgba(68, 68, 68, 0.11); */
 }
 
 .desc__videos2 {
@@ -272,7 +272,7 @@ body {
     padding: 1vh;
     border: 4px solid transparent;
     border-radius: 20px;
-    box-shadow: 0 6px 20px rgb(68, 68, 68);
+    /* box-shadow: 0 6px 20px rgba(68, 68, 68, 0.11); */
 }
 
 .desc__videos3 {
@@ -284,7 +284,7 @@ body {
     padding: 1vh;
     border: 4px solid transparent;
     border-radius: 20px;
-    box-shadow: 0 6px 20px rgba(68, 68, 68, 0.11);
+    /* box-shadow: 0 6px 20px rgba(68, 68, 68, 0.11); */
 }
 
 .desc__videos4 {
@@ -296,7 +296,7 @@ body {
     padding: 1vh;
     border: 4px solid transparent;
     border-radius: 20px;
-    box-shadow: 0 6px 20px rgba(68, 68, 68, 0.11);
+    /* box-shadow: 0 6px 20px rgba(68, 68, 68, 0.11); */
 }
 
 .borda__iframe {
@@ -311,7 +311,7 @@ body {
 }
 
 .box {
-    margin: 0 2% 0 2%;
+    margin: 0 0% 0 0%;
     border-radius: 2px;
     overflow: hidden;
     position: relative;
@@ -330,7 +330,7 @@ body {
     right: -2px;
     bottom: -2px;
     border-radius: 20px;
-    background: linear-gradient(90deg, var(--cor-numero2), rgb(0, 0, 0));
+    background: linear-gradient(90deg, var(--cor-numero2), rgb(255, 255, 255));
     z-index: -1;
     background-size: 300% 300%;
     animation: animate-border 4s linear infinite;
