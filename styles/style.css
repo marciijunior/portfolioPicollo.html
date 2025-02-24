@@ -119,7 +119,7 @@ body {
     align-items: center; 
     justify-content: center; 
     text-align: center; 
-    color: var(--cor-branca);
+    color: var(--cor-numero1);
 }
 
 .titulo__sbt {
@@ -146,14 +146,14 @@ body {
     align-items: center; 
     justify-content: center; 
     text-align: center; 
-    color: var(--cor-branca);
+    color: var(--cor-numero1);
 }
 
 .titulo__sbt2 {
     font-family: "Montserrat", serif;
     font-size: 1.25rem;
     font-weight: 400;
-    color: var(--cor-branca);
+    color: var(--cor-numero1);
     margin: 0 0 0 0;
     padding: 1vh;
 }
@@ -162,7 +162,7 @@ body {
     font-family: "Montserrat", serif;
     font-size: 1.25rem;
     font-weight: 400;
-    color: var(--cor-branca);
+    color: var(--cor-numero1);
     margin: 0 20vh 0 20vh;
 }
 
