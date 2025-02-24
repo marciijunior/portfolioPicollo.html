@@ -267,7 +267,7 @@ body {
     font-family: "Montserrat", serif;
     font-size: 1.20rem;
     font-weight: 400;
-    color: var(--cor-branca);
+    color: var(--cor-numero1);
     margin: 0 10vh 0 10vh;
     padding: 1vh;
     border: 4px solid transparent;
@@ -291,7 +291,7 @@ body {
     font-family: "Montserrat", serif;
     font-size: 1.20rem;
     font-weight: 400;
-    color: var(--cor-branca);
+    color: var(--cor-numero1);
     margin: 0 10vh 0 10vh;
     padding: 1vh;
     border: 4px solid transparent;
