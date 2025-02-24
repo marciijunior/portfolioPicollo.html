@@ -7,6 +7,7 @@
     --cor-numero2: #ebdcc4;
     --cor-numero3: #e0ccac;
     --cor-numero4: #ebdcc450;
+    --degrade1: radial-gradient(circle at 70% 50%, #ccbd9e, #fffae9);
 }
 
 body {
@@ -30,15 +31,15 @@ body {
 }
 
 .background__color1 {
-    background: linear-gradient(105deg,#a5a5a5 40%, #6e706b);
+    background: radial-gradient(circle at 70% 50%, #ccbd9e, #fffae9);
 }
 
 .background__color2 {
-    background: linear-gradient(105deg,#424242 40%, #6e706b);
+    background: radial-gradient(circle at 70% 50%, #ccbd9e, #fffae9);
 }
 
 .background__color3 {
-    background: linear-gradient(105deg,#a5a5a5 40%, #6e706b);
+    background: radial-gradient(circle at 70% 50%, #ccbd9e, #fffae9);
 }
 
 .corpo__inicio {
@@ -220,7 +221,7 @@ body {
 }
 
 .imagem__sbt {
-    max-width: 28vh;
+    max-width: 15%;
     height: auto;
 }
 
@@ -235,7 +236,7 @@ body {
 }
 
 .imagem__sbt4 {
-    max-width: 28vh;
+    max-width: 20vh;
     height: auto;
 }
 
