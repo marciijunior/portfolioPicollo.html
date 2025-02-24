@@ -125,7 +125,7 @@ body {
 .titulo__sbt {
     font-family: "Montserrat", serif;
     font-size: 1.25rem;
-    font-weight: 500;
+    font-weight: 400;
     color: var(--cor-numero1);
     margin: 0 0 0 0;     
     padding: 1vh;
@@ -134,7 +134,7 @@ body {
 .p__sbt__trabalhos {
     font-family: "Montserrat", serif;
     font-size: 1.25rem;
-    font-weight: 500;
+    font-weight: 400;
     color: var(--cor-numero1);
     margin: 0 20vh 0 20vh;
 }
@@ -152,7 +152,7 @@ body {
 .titulo__sbt2 {
     font-family: "Montserrat", serif;
     font-size: 1.25rem;
-    font-weight: 300;
+    font-weight: 400;
     color: var(--cor-branca);
     margin: 0 0 0 0;
     padding: 1vh;
@@ -161,7 +161,7 @@ body {
 .p__sbt__trabalhos2 {
     font-family: "Montserrat", serif;
     font-size: 1.25rem;
-    font-weight: 300;
+    font-weight: 400;
     color: var(--cor-branca);
     margin: 0 20vh 0 20vh;
 }
@@ -179,7 +179,7 @@ body {
 .titulo__sbt3 {
     font-family: "Montserrat", serif;
     font-size: 1.25rem;
-    font-weight: 500;
+    font-weight: 400;
     color: var(--cor-numero1);
     margin: 0 0 0 0;
     padding: 1vh;
@@ -188,7 +188,7 @@ body {
 .p__sbt__trabalhos3 {
     font-family: "Montserrat", serif;
     font-size: 1.25rem;
-    font-weight: 500;
+    font-weight: 400;
     color: var(--cor-numero1);
     margin: 0 20vh 0 20vh;
 }
@@ -206,7 +206,7 @@ body {
 .titulo__sbt4 {
     font-family: "Montserrat", serif;
     font-size: 1.25rem;
-    font-weight: 300;
+    font-weight: 400;
     color: var(--cor-numero1);
     margin: 0 0 0 0;
     padding: 1vh;
@@ -215,7 +215,7 @@ body {
 .p__sbt__trabalhos4 {
     font-family: "Montserrat", serif;
     font-size: 1.25rem;
-    font-weight: 300;
+    font-weight: 400;
     color: var(--cor-numero1);
     margin: 0 20vh 0 20vh;
 }
