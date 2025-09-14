@@ -386,7 +386,7 @@ body {
 }
 
 .foto__trabalhos img {
-    display: contents; /* Mantém apenas a imagem visível */
+    display: contents; 
 }
 
 @keyframes animate-border {
@@ -403,47 +403,47 @@ body {
         align-items: center;
         justify-content: center;
         text-align: center;
-        height: auto; /* Altura automática */
-        padding: 20px; /* Padding reduzido */
+        height: auto;
+        padding: 20px;
     }
 
     .foto__titulo {
-        max-width: 90%; /* Aumentar a largura máxima */
+        max-width: 90%;
     }
 
     .corpo__inicio img {
-        max-width: 60%; /* Ajustar a largura da imagem */
+        max-width: 60%;
         height: auto;
     }
 
     .cabecalho {
-        margin-bottom: 20px; /* Reduzir a margem inferior */
+        margin-bottom: 20px;
     }
 
     .container {
-        padding: 0 10px; /* Reduzir o padding lateral */
-        flex-direction: column; /* Empilhar elementos verticalmente */
+        padding: 0 10px;
+        flex-direction: column;
     }
 
     .titulo__cabecalho {
-        font-size: 1.8rem; /* Reduzir o tamanho da fonte */
+        font-size: 1.8rem;
     }
 
     .titulo__sm {
-        font-size: 0.7rem; /* Reduzir o tamanho da fonte */
-        margin: 0 10px; /* Reduzir a margem */
+        font-size: 0.7rem;
+        margin: 0 10px;
     }
 
     .p__sm {
-        font-size: 0.5rem; /* Reduzir ainda mais o tamanho da fonte */
-        margin: 0 5vw; /* Reduzir a margem lateral */
-        padding: 0 5vw 3vw 5vw; /* Reduzir o padding inferior */
-        line-height: 1.4; /* Ajustar a altura da linha para melhor legibilidade */
+        font-size: 0.5rem;
+        margin: 0 5vw;
+        padding: 0 5vw 3vw 5vw;
+        line-height: 1.4;
     }
 
     .sbt__trabalho, .sbt__trabalho3{
-        margin: 0 10px; /* Reduzir a margem */
-        flex-direction: column; /* Empilhar elementos verticalmente */
+        margin: 0 10px; 
+        flex-direction: column; 
     }
 
     .sbt__trabalho2, .sbt__trabalho4{
@@ -453,50 +453,50 @@ body {
 
 
     .titulo__sbt, .titulo__sbt2, .titulo__sbt3, .titulo__sbt4 {
-        font-size: 0.7rem; /* Reduzir o tamanho da fonte */
+        font-size: 0.7rem;
     }
 
     .p__sbt__trabalhos, .p__sbt__trabalhos2, .p__sbt__trabalhos3, .p__sbt__trabalhos4 {
-        margin: 0 10px; /* Reduzir a margem */
-        font-size: 0.6rem; /* Reduzir o tamanho da fonte */
+        margin: 0 10px;
+        font-size: 0.6rem;
     }
 
     .imagem__sbt, .imagem__sbt2, .imagem__sbt3, .imagem__sbt4 {
-        max-width: 50%; /* Garantir que as imagens não ultrapassem a largura */
+        max-width: 50%; 
         border: 1px solid transparent;
         box-shadow: 0 6px 20px rgb(0, 0, 0);
     }
 
     .container__videos {
         display: grid;
-        padding: 10px; /* Reduzir o padding */
-        flex-direction: column; /* Empilhar vídeos verticalmente */
+        padding: 10px; 
+        flex-direction: column;
         grid-auto-flow: column;
         direction: rtl;
     }
 
     .container__sbt__videos1 {
-        flex-direction: column; /* Empilhar vídeos verticalmente */
+        flex-direction: column; 
     }
 
     .desc__videos, .desc__videos2, .desc__videos3, .desc__videos4 {
-        margin: 0 10px; /* Reduzir a margem */
-        font-size: 0.6rem; /* Reduzir o tamanho da fonte */
+        margin: 0 10px; 
+        font-size: 0.6rem; 
     }
 
     .borda__iframe {
-        width: 100%; /* Garantir que o iframe ocupe a largura total */
+        width: 100%; 
         height: 60%;
     }
 
     .box {
-        margin: 10px; /* Reduzir a margem */
-        font-size: 1rem; /* Reduzir o tamanho da fonte */
+        margin: 10px; 
+        font-size: 1rem;
     }
 
     .apresentacao__links {
-        flex-direction: column; /* Empilhar links verticalmente */
-        gap: 10px; /* Reduzir o espaçamento entre links */
+        flex-direction: column;
+        gap: 10px; 
     }
 
     .apresentacao__imagens {
@@ -504,13 +504,13 @@ body {
     }
 
     .apresentacao__links__navegacao {
-        font-size: 0.7rem; /* Reduzir o tamanho da fonte */
-        padding: 2vw 1vw 2vw 2vw; /* Reduzir o padding */
-        width: 90%; /* Ajustar a largura */
+        font-size: 0.7rem; 
+        padding: 2vw 1vw 2vw 2vw;
+        width: 90%; 
     }
 
     .rodape {
-        font-size: 0.6rem; /* Reduzir o tamanho da fonte */
+        font-size: 0.6rem; 
     }
 
     .foto__trabalhos {
