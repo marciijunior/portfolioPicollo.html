@@ -1,0 +1,5 @@
+/* src/App.module.css */
+.portfolio_works {
+    border-top: 4px solid;
+    border-image: linear-gradient(90deg, #ccbd9e, #fffae9) 1;
+}

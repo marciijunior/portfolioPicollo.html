@@ -1,0 +1,25 @@
+/* src/index.css */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Prata&display=swap');
+
+:root {
+    /* Cores */
+    --color-primary-bg: #181818;
+    --color-text-light: #ffffff;
+    --color-accent: #ccbd9e;
+
+    /* Fontes */
+    --font-primary: 'Montserrat', sans-serif;
+    --font-secondary: 'Montserrat', sans-serif;
+}
+
+* {
+    font-family: var(--font-secondary);
+}
+
+body {
+    font-family: var(--font-secondary); /* <-- Fonte padrão para o site */
+    background-color: var(--color-primary-bg);
+    color: var(--color-text-light);
+    line-height: 1.6;
+    margin: 0;
+}

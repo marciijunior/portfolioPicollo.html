@@ -1,0 +1,106 @@
+/* src/components/Hero/Hero.module.css */
+
+.hero {
+    padding: 24px 5%;
+    text-align: center;
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero__container {
+    max-width: 1200px;
+    width: 100%;
+}
+
+.hero__title {
+    font-family: var(--font-primary);
+    font-size: clamp(2.5rem, 6vw, 4rem);
+    margin-bottom: 48px;
+}
+
+.hero__intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 48px;
+    margin-bottom: 48px;
+}
+
+.hero__profile_photo {
+    max-width: 280px;
+    width: 60%;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+.hero__social_links {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 100%;
+    max-width: 350px;
+}
+
+.social_links__button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 16px;
+    border: 2px solid var(--color-accent);
+    border-radius: 10px;
+    background-color: var(--color-primary-bg);
+    color: var(--color-text-light);
+    text-decoration: none;
+    font-size: 1.25rem;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.social_links__button:hover {
+    transform: scale(1.05);
+    background-color: rgba(235, 220, 196, 0.1);
+}
+
+.social_links__icon {
+    width: 24px;
+    height: auto;
+}
+
+.about_me {
+    margin-top: 48px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about_me__title {
+    font-size: 1.75rem;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+
+.about_me__text {
+    font-size: 1.1rem;
+    opacity: 0.9;
+    line-height: 1.7;
+}
+
+@media (min-width: 768px) {
+    .hero__intro {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hero__profile_photo {
+        width: 100%;
+    }
+    
+    .about_me {
+        text-align: left;
+    }
+}

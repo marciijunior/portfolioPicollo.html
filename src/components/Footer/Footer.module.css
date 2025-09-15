@@ -1,0 +1,9 @@
+/* src/components/Footer/Footer.module.css */
+.footer {
+    padding: 24px;
+    text-align: center;
+    background-color: #000;
+    color: #ccbd9e;
+    font-size: 0.875rem;
+    margin-top: 32px;
+}
